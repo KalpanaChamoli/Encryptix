@@ -1,0 +1,151 @@
+/* Reset default margin and padding */
+/* Reset default margin and padding */
+* {
+    margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   padding:0%;
+}
+
+.navbar {
+    position: absolute;
+    width: 1185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 3% 5%;
+    color:aliceblue;
+}
+.navbar-items{
+    display:flex;
+    gap:20px;
+    height:32px;
+    font-size: small;
+   
+}
+.hero-section{
+    background-image: url(mainphoto.jpg);
+    height:600px;
+    background-size:cover;
+   
+}
+.hero-layout{
+    position:absolute;
+    height:700px;
+    width: 100px;
+    color:rgba(0, 0, 0, 0.473);
+}
+.hero-card {
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    gap: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.hero-msg {
+    font-size: 50px;
+    font-weight: bolder;
+    height: 130px;
+    width: 962px;
+}
+.box1{
+    color:black;
+    height: 504px;
+    position:relative;
+    display:inline-grid;
+    grid-template-columns: 55% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 70px 50px;
+    background-color:peachpuff;
+    width: 90%;
+    margin-top: 10px;
+    
+    
+}
+.box2{
+    margin-top: 10px;
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 65% 50%;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+    background-color:peachpuff;
+
+}
+.box3{
+    margin-top: 20px;
+    border-color: grey;
+    height:550px;
+    text-align: center;
+     background-color: peachpuff;
+    justify-content: center;
+    
+}
+.disc-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+   
+    width: 200px;
+}
+.disc5 img{
+    border:2px solid grey ;
+   
+}
+.disc5{
+    border: 2px solid grey;
+}
+.disc7 img{
+    border:2px solid grey ;
+}
+.disc7{
+    border: 3px solid grey;
+}
+.disc9 img{
+    border:2px solid grey ;
+}
+.disc9{
+    border: 3px solid gray;
+}
+.box4{
+    margin-top: 10px;
+    height:504px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+
+
+}
+input[type=text],textarea{
+
+    padding: 12px;
+    width:300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+textarea{
+    width:100%;
+    
+}
+input[type=Contact-Us]{
+    background-color: darkorange;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 15%;
+   
+}
